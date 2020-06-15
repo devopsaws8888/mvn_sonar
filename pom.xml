@@ -29,10 +29,15 @@
   </snapshotRepository>
 </distributionManagement> -->
   <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-7-87.us-east-2.compute.internal-releases</name>
+        <url>http://3.23.92.140:8084/artifactory/tiago</url>
+    </repository>
     <snapshotRepository>
         <id>artifactory</id>
         <name>ip-172-31-7-87.us-east-2.compute.internal-snapshots</name>
-        <url>http://3.15.202.216:8084/artifactory/libs-snapshot</url>
+        <url>http://3.23.92.140:8084/artifactory/tiago</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
